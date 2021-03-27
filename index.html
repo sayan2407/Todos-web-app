@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./todoApp.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+    <header id="main">
+        Todos System
+    </header>
+
+    <div id="container">
+
+        <input type="checkbox" id="selectAll" onclick="selAll()">
+        <input id="input" type="text" name="tasks" placeholder="what needs to be done" onkeypress="show(event)" >
+
+        <div id="tasks-list">
+            <!-- <p id="demo"></p> -->
+            <ul>
+                <li class="list"><input id="check" type="checkbox"> shsh <i class="material-icons">delete</i></li>
+                <li class="list"><input id="check" type="checkbox"> Assignment baki ache <i
+                        class="material-icons">delete</i></li>
+            </ul>
+
+        </div>
+
+        <div id="lower">
+            <p id="left">0 items left</p>
+            <ul id="switch">
+                <li id="all" class="switch-list" onclick="allClick()"><a id="allA" href="#">All</a></li>
+                <li id="active" class="switch-list" onclick="activeClick()"><a id="activeA" href="#">Active</a></li>
+                <li id="completed" class="switch-list" onclick="completeClick()"><a id="compA" href="#">Completed</a></li>
+               <li id="clearCom" class="switch-list" onclick="clearCompleted()"><a href="#" id="clear" ></a></li>
+            </ul>
+           
+
+        </div>
+
+    </div>
+  
+
+</body>
+
+</html>

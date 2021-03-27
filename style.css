@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    margin: 20px;
+    color: blue;
+    background-color:ghostwhite;
+    padding: 20px;
+    font-size: 50px;
+    
+    text-align: center;
+}
+#container{
+    background-color: #a2a2d0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 750px;
+    padding-top: 25px;
+   border-radius: 25px;
+   box-shadow: 4px 3px 8px 1px #969696;
+}
+#input{
+    padding: 15px;
+    width: 500px;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 0px solid;
+    outline: none;
+}
+#lower{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+   
+
+}
+#switch{
+    list-style-type: none;
+    display: inline;
+    display: flex;
+    flex-direction: row;
+}
+.switch-list{
+    margin: 10px;
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+#left{
+    margin: 30px;
+    padding: 20px,;
+    color: ghostwhite;
+    
+}
+li a {
+    display: block;
+    color:blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  li a.active {
+    color: white;
+    background-color: #4CAF50;
+  }
+  #tasks-list{
+      margin-top: 20px;
+      margin-left: 50px;
+  }
+  .list{
+      font-size: 28px;
+       cursor: pointer;
+      font-family: sans-serif ;
+      list-style-type: none;
+      width: 580px;
+      font-family: sans-serif;
+      padding: 10px;
+      font-style: italic;
+      font-family: sans-serif;
+      
+  }
+  .list:hover{
+      background-color :burlywood;
+      color:ghostwhite;
+      border-radius: 30px;
+  }
+  .check{
+      width: 25px;
+      height: 25px;
+      margin-right: 20px;
+      
+  }
+  .material-icons{
+      cursor: pointer;
+  }
+  .delSpan{
+      margin-left: 50px;
+      color: red;
+      font-family: serif;
+      font-size: 30px;
+      cursor: pointer;
+      float: right;
+
+  }
+  #all a{
+      background-color: #4CAF50;
+      color: white;
+  }
+  del{
+      color: blue;
+      opacity: 0.2;
+  }
+  #selectAll{
+      margin-left: 60px;
+      margin-top: 20px;
+      width: 25px;
+      height: 25px;
+      border-radius: 20px;
+      margin-top: 10px;
+      
+  }
+  #clear{
+      color: ghostwhite;
+  }
+  #clear:hover{
+      color: blue;
+  }
+  .ip{
+      outline: none;
+      border: 0px solid;
+  }
+  
+  
+  
+  
+  
